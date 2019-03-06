@@ -25,7 +25,7 @@ require 'phpmailer/src/SMTP.php';
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
             $mail->Username = 'tokoricnickoimejezauzeto@gmail.com';
-            $mail->Password = 'Lozinka1234!';
+            $mail->Password = '%$#%^%$#^';
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
 
