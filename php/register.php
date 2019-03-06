@@ -8,7 +8,7 @@ require 'phpmailer/src/SMTP.php';
 require '../models/DB.php';
 
 if($_SERVER['REQUEST_METHOD'] !== 'POST'){
-    echo 'dudlaj ga again'; //neki kul gif
+    echo 'Error'; 
 }else {
     if(isset($_POST['send'])){
         $name = $_POST['name'];
